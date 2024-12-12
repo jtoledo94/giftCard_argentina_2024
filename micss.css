@@ -5,16 +5,21 @@
     
 }
 
-main{
+/* main{
     background-image: url(img/fondo_bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* Esto fija la imagen de fondo */
+    background-attachment: fixed; 
     
     overflow: hidden;
-}
+} */
 
+body{
+    background-image: url(img/fondo_bg.jpg);
+    width: 100%;
+    height: 100%;
+}
 
 
 /* .bg_img{
@@ -31,6 +36,8 @@ main{
     justify-content: space-between;
     align-items: center;
     margin: 10px;
+    background-color: white !important;
+    
 }
 
 
