@@ -68,7 +68,7 @@ lista = [
     id: 2,
     upperTitle: "DAY TOUR",
     title: "PREMIUM",
-    img: "../img/wine/wine.webp",
+    img: "../img/premium/premium.webp",
     modalId: "premium",
     indicatiors: 4,
     modal: [
@@ -126,7 +126,70 @@ lista = [
       },
     ]
 
-  }
+  },
+  {
+    id: 3,
+    upperTitle: "DAY TOUR",
+    title: "PREMIUM",
+    img: "../img/premium/premium.webp",
+    modalId: "premium",
+    indicatiors: 4,
+    modal: [
+      {
+        texto: "Pasaje ida y vuelta",
+        icon: "fa-solid fa-ship azul pe-2"
+      },
+      {
+        texto: "Paseo guiado por el Barrio Histórico",
+        icon: "fa fa-street-view azul pe-2"
+      },
+      {
+        texto: "Almuerzo en Mesón de la Plaza c/bebidas",
+        icon: "fa fa-cutlery azul pe-2"
+      },
+      {
+        texto: "Tiempo Libre en la ciudad",
+        icon: "fa fa-hourglass-half azul pe-2"
+      },
+      {
+        texto: "Llevá tu bicicleta gratis",
+        icon: "fa fa-bicycle azul pe-2"
+      },
+  
+      {
+        texto: "Miércoles a Lunes",
+        icon: "fa fa-calendar azul  pe-2"
+      },
+      {
+        texto: "Ida: 08:30 / Vuelta: 18:00",
+        icon: "fa fa-clock-o  azul pe-2"
+      },
+      {
+        texto: "Ida: 10:30 / Vuelta: 20:30",
+        icon: "fa fa-clock-o  azul pe-2"
+      },
+      {
+        texto: "Canjeá tu regalo llamando al Call Center +54 11 5167 7700, comunicándote vía WhatsApp +54 9 11 6411-9465 o acercándote a nuestros puntos de venta",
+        icon: "fa-solid fa-gift pe-2 "
+      }
+
+    ],
+    modalImgs: [
+      {
+        imgC: "../img/premium/reel/premium1.webp"
+      },
+      {
+        imgC: "../img/premium/reel/premium2.webp"
+      },
+      {
+        imgC: "../img/premium/reel/premium3.webp"
+      },
+      {
+        imgC: "../img/premium/reel/premium4.webp"
+      },
+    ]
+
+  },
 ]
 
 
@@ -424,25 +487,21 @@ const crearCards = (list) => {
       cardBodyTitles.classList.add("d-flex", "flex-column");
       cardBody.appendChild(cardBodyTitles);
 
-      const upperTitle = document.createElement("h3");
+      const upperTitle = document.createElement("h4");
       upperTitle.innerText = `${element.upperTitle}`;
       upperTitle.classList.add("card-title", "poppins-extrabold", "azul", "text-center", "order-2");
       cardBodyTitles.appendChild(upperTitle);
 
-      const title = document.createElement("h4");
+      const title = document.createElement("h3");
       title.classList.add("card-title", "poppins-extrabold", "azul", "text-center", "h4_card", "order-1");
       title.innerText = `${element.title}`;
       cardBody.appendChild(title);
 
-      /* 
-                     <button type="button" class="btn btn-primary btn_card poppins-semibold celeste" data-bs-toggle="modal"
-                       data-bs-target="#wine_tour">
-                       Ver más
-                     </button> */
+      
 
       const button = document.createElement("button");
       button.type = "button"
-      button.classList.add("btn", "btn-primary", "btn_card", "poppins-semibold", "celeste")
+      button.classList.add("btn", "btn-primary", "btn_card", "poppins-semibold", "celeste","order-3")
       button.setAttribute("data-bs-toggle", "modal")
       button.setAttribute("data-bs-target", `#${element.modalId}`);
       button.innerText = "Ver más"
