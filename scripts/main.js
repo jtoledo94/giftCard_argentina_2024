@@ -78,7 +78,7 @@ lista = [
       },
       {
         texto: "Canjeá tu regalo llamando al Call Center +54 11 5167 7700, comunicándote vía WhatsApp [whatsapp] o acercándote a nuestros puntos de venta"
-,
+        ,
         icon: "fa-solid fa-gift pe-2 "
       }
     ]
@@ -153,73 +153,63 @@ lista = [
   {
     id: 3,
     upperTitle: "DAY TOUR",
-    title: "PREMIUM",
-    img: "../img/premium/premium.webp",
-    modalId: "premium",
+    title: "VIANDA",
+    img: "../img/vianda/vianda.webp",
+    modalId: "vianda",
     indicatiors: 4,
     modal: [
       {
-        texto: "Pasaje ida y vuelta",
+        texto: "Pasaje ida y vuelta a bordo",
         icon: "fa-solid fa-ship azul pe-2"
       },
       {
-        texto: "Paseo guiado por el Barrio Histórico",
-        icon: "fa fa-street-view azul pe-2"
-      },
-      {
-        texto: "Almuerzo en Mesón de la Plaza c/bebidas",
-        icon: "fa fa-cutlery azul pe-2"
-      },
-      {
-        texto: "Tiempo Libre en la ciudad",
-        icon: "fa fa-hourglass-half azul pe-2"
+        texto: "Vianda a bordo",
+        icon: "fa fa-cutlery  azul pe-2"
       },
       {
         texto: "Llevá tu bicicleta gratis",
         icon: "fa fa-bicycle azul pe-2"
+      }
+
+
+    ],
+    modalImgs: [
+      {
+        imgC: "../img/vianda/reel/vianda1.webp"
       },
+      {
+        imgC: "../img/vianda/reel/vianda2.webp"
+      },
+      {
+        imgC: "../img/vianda/reel/vianda3.webp"
+      },
+      {
+        imgC: "../img/vianda/reel/vianda4.webp"
+      },
+    ],
+    modalfooter: [
 
       {
-        texto: "Miércoles a Lunes",
+        texto: "Lunes a Domingos",
         icon: "fa fa-calendar azul  pe-2"
       },
       {
-        texto: "Ida: 08:30 / Vuelta: 18:00",
-        icon: "fa fa-clock-o  azul pe-2"
-      },
-      {
-        texto: "Ida: 10:30 / Vuelta: 20:30",
+        texto: "Ida: 12:50 / Vuelta: 20:30",
         icon: "fa fa-clock-o  azul pe-2"
       },
       {
         texto: "Canjeá tu regalo llamando al Call Center +54 11 5167 7700, comunicándote vía WhatsApp [whatsapp] o acercándote a nuestros puntos de venta",
         icon: "fa-solid fa-gift pe-2 "
       }
-
-    ],
-    modalImgs: [
-      {
-        imgC: "../img/premium/reel/premium1.webp"
-      },
-      {
-        imgC: "../img/premium/reel/premium2.webp"
-      },
-      {
-        imgC: "../img/premium/reel/premium3.webp"
-      },
-      {
-        imgC: "../img/premium/reel/premium4.webp"
-      },
-    ],
-
+    ]
 
   },
   {
     id: 4,
     upperTitle: "DAY TOUR",
-    title: "PREMIUM",
-    img: "../img/premium/premium.webp",
-    modalId: "premium",
+    title: "FINCA DEL SACRAMENTO",
+    img: "../img/finca/finca.webp",
+    modalId: "finca_sacramento",
     indicatiors: 4,
     modal: [
       {
@@ -227,54 +217,58 @@ lista = [
         icon: "fa-solid fa-ship azul pe-2"
       },
       {
-        texto: "Paseo guiado por el Barrio Histórico",
-        icon: "fa fa-street-view azul pe-2"
+        texto: "Desayuno",
+        icon: "fa fa-coffee pe-2 azul"
       },
       {
-        texto: "Almuerzo en Mesón de la Plaza c/bebidas",
-        icon: "fa fa-cutlery azul pe-2"
+        texto: "Transfer IN/OUT en el puerto de Colonia",
+        icon: "fa fa-bus pe-2 azul"
       },
       {
-        texto: "Tiempo Libre en la ciudad",
-        icon: "fa fa-hourglass-half azul pe-2"
+        texto: "Pileta(Verano)",
+        icon: "fa fa-swimming-pool pe-2 azul"
       },
       {
-        texto: "Llevá tu bicicleta gratis",
-        icon: "fa fa-bicycle azul pe-2"
+        texto: "Wi-Fi gratuito",
+        icon: "fa fa-wifi pe-2 azul"
       },
 
       {
-        texto: "Miércoles a Lunes",
+        texto: "De 1 a 4 noches en habitación Cabaña Doble",
+        icon: "fa fa-bed azul pe-2 "
+      }
+
+    ],
+    modalImgs: [
+      {
+        imgC: "../img/finca/reel/finca1.webp"
+      },
+      {
+        imgC: "../img/finca/reel/finca2.webp"
+      },
+      {
+        imgC: "../img/finca/reel/finca3.webp"
+      },
+      {
+        imgC: "../img/finca/reel/finca4.webp"
+      },
+    ],
+    modalfooter: [
+
+      {
+        texto: "Lunes a Domingos",
         icon: "fa fa-calendar azul  pe-2"
       },
       {
-        texto: "Ida: 08:30 / Vuelta: 18:00",
-        icon: "fa fa-clock-o  azul pe-2"
-      },
-      {
-        texto: "Ida: 10:30 / Vuelta: 20:30",
+        texto: "Ida: 12:50 / Vuelta: 20:30",
         icon: "fa fa-clock-o  azul pe-2"
       },
       {
         texto: "Canjeá tu regalo llamando al Call Center +54 11 5167 7700, comunicándote vía WhatsApp [whatsapp] o acercándote a nuestros puntos de venta",
         icon: "fa-solid fa-gift pe-2 "
       }
-
     ],
-    modalImgs: [
-      {
-        imgC: "../img/premium/reel/premium1.webp"
-      },
-      {
-        imgC: "../img/premium/reel/premium2.webp"
-      },
-      {
-        imgC: "../img/premium/reel/premium3.webp"
-      },
-      {
-        imgC: "../img/premium/reel/premium4.webp"
-      },
-    ],
+    estrellas: 4,
 
 
   },
@@ -394,9 +388,22 @@ const crearModal = (list) => {
       sectionTexto.appendChild(divTextoMain);
 
       const titulo = document.createElement("h2");
-      titulo.classList.add("poppins-extrabold", "azul");
+      titulo.classList.add("poppins-extrabold", "azul","mb-1r");
       titulo.textContent = element.title.toUpperCase();
       divTextoMain.appendChild(titulo);
+
+
+      if (element.estrellas) {
+        let divEstrellas = document.createElement("div")
+        divEstrellas.classList.add("mb-3")
+        divTextoMain.appendChild(divEstrellas);
+        for (i = 0; i <= element.estrellas; i++) {
+          let iestrellas = document.createElement("i")
+          iestrellas.classList.add("fa-solid", "fa-star")
+
+          divEstrellas.appendChild(iestrellas)
+        }
+      }
 
       element.modal.forEach(item => {
         const p = document.createElement("p");
